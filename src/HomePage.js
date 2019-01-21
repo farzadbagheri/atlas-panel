@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Panel from './HomePage.js';
+import Panel from './Panel';
 import './App.css';
 
 class HomePage extends Component {
