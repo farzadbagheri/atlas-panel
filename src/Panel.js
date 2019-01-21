@@ -26,8 +26,8 @@ class Panel extends Component {
           </tr>
           { this.state.data.communities.map((d) => {
             return (<tr>
-                      <td>d.name</td>
-                      <td>d.cases</td> 
+                      <td>{d.name}</td>
+                      <td>{d.cases}</td> 
                     </tr>);
           })}
         </table>
