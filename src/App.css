@@ -96,13 +96,12 @@ th  {
 }
 
 td {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 10px;  
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 4px;  
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(236,236,237);
-  font-size: 14px;
 }
 
 thead > tr > th{
@@ -119,12 +118,13 @@ thead > tr > th{
 
 }
 
+
 table {
   display: block;
   border-spacing: 0;
   height: 700px;
   overflow-y: scroll;
-  width: 500px; 
+  width: 100%; 
 }
 
 .Panel {
