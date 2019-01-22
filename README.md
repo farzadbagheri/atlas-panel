@@ -4,4 +4,3 @@ accessible at http://farzadbagheri.github.io/atlas-panel
 
 :bootstrapped with [Create React App](https://github.com/facebook/create-react-app):
 
-(table header may not stick in older browser versions i.e. Chrome v. < 67.0.3396.62)
