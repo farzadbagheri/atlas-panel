@@ -22,7 +22,7 @@ class HomePage extends Component {
           <Panel hidePanel={this.togglePanel} />        	
        	:
        	<React.Fragment>
-	       	<span className="homeText">Show Atlas panel</span>
+	       	<span className="homeText">Show ATLAS panel</span>
 	       	<ArrowButton toggle={this.togglePanel} style={{float: 'left', marginTop: '3%'}}  open/>
 	    </React.Fragment>
        }
