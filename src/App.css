@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-logo {
@@ -22,11 +23,101 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.HideButton {
+  float: right;
+}
+
+.tableInfo {
+  text-align: left;
+}
+
+#name {
+  width: 50%;
+}
+
+#cases {
+  width: 50%;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+  cursor: pointer;
+}
+
+.SortButton {
+  display: inline;
+  padding: 0;
+  font-size:12px;
+  padding-bottom: 5px;
+  color: rgb(0,10,151);
+}
+
+td, th {
+  text-align: left;
+}
+
+.panelHeader {
+  background-color: white;
+}
+
+#title {
+  color: rgb(0,10,151);
+}
+
+
+th  {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(219,220,221);
+}
+
+td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;  
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(236,236,237);
+}
+
+thead > tr > th{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(219,220,221);
+
+}
+
+.header {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(219,220,221);
+
+}
+
+table {
+  display: block;
+  border-spacing: 0;
+  border-collapse: collapse;
+  height: 700px;
+  overflow-y: scroll;
+  width: 500px; 
+}
+
+.Panel {
+  padding-left: 25px;
+  padding-top: 8px;
+  margin-top: 3%;
+  width: 35%;
+  height: 100%;
+  box-shadow: 2.5px 1.25px 1.25px rgb(92,91,93);
+  overflow: hidden;
 }
