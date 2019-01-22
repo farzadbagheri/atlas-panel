@@ -24,20 +24,18 @@ class Table extends Component {
   }
 
   render() {
-    const headers = Object.keys(this.props.data.communities[0]);
-    console.log('headers', headers);
     return (
-        <table className="Table">
-          <thead >
-            <tr className="header">
-              <th className="sticky" id="name"><SortButton value={"NAME "} type={'name'} sort={this.props.sort} /></th>
-              <th className="sticky" id="cases"><SortButton id="column2" type={'cases'} sort={this.props.sort} value={"NUMBER OF CASES "} /></th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.data}
-          </tbody>
-        </table>
+      <table className="Table">
+        <thead >
+          <tr className="header">
+            <th className="sticky" id="name"><SortButton value={"NAME "} type={'name'} sort={this.props.sort} lastSort={this.props.lastSort}/></th>
+            <th className="sticky" id="cases"><SortButton id="column2" type={'cases'} sort={this.props.sort} value={"NUMBER OF CASES "} lastSort={this.props.lastSort}/></th>
+          </tr>
+        </thead>
+        <tbody>
+          {this.data}
+        </tbody>
+      </table>
     );
   }
 }

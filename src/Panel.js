@@ -44,7 +44,7 @@ class Panel extends Component {
           <h1 className="tableInfo" style={{marginBottom: '5px', fontWeight:'900'}}>{this.state.data.communities.length}</h1>
           <span id='subheader'><b>Communities</b> in <b>{this.state.data.name}</b></span>
         </div>
-        <Table data={this.state.data} sort={this.sort}/>
+        <Table data={this.state.data} sort={this.sort} lastSort={this.state.lastSort}/>
       </div>
     );
   }
