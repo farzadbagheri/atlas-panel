@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Panel from './Panel';
+import ArrowButton from './ArrowButton';
 import './App.css';
 
 class HomePage extends Component {
@@ -17,7 +18,14 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
-        <Panel active={this.state.panelActive} hidePanel={this.togglePanel} />
+       {this.state.panelActive ? 
+          <Panel hidePanel={this.togglePanel} />        	
+       	:
+       	<React.Fragment>
+	       	<span className="homeText">Show Atlas panel</span>
+	       	<ArrowButton toggle={this.togglePanel} style={{float: 'left', marginTop: '3%'}}  open/>
+	    </React.Fragment>
+       }
       </div>
     );
   }

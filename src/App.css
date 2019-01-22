@@ -1,6 +1,11 @@
+html {
+  background-color:rgb(229,230,231);
+}
+
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  
 }
 
 .App-logo {
@@ -23,12 +28,23 @@
   color: #61dafb;
 }
 
-.HideButton {
-  float: right;
+.homeText {
+  font-size: 28px;
+  padding-top: 3%;
+  padding-left: 25px;
+  float: left;
 }
-
 .tableInfo {
   text-align: left;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+#subheader {
+  float: left;
+  font-size: 14px;
+  margin-bottom: 16px;
 }
 
 #name {
@@ -116,8 +132,9 @@ table {
   padding-left: 25px;
   padding-top: 8px;
   margin-top: 3%;
-  width: 35%;
+  width: 500px;
   height: 100%;
   box-shadow: 2.5px 1.25px 1.25px rgb(92,91,93);
   overflow: hidden;
+  background-color: white;
 }
