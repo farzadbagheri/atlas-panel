@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/atlas-panel/static/js/runtime~main.081b9131.js"
   },
   {
-    "revision": "ad414978e84e6329e9f4",
-    "url": "/atlas-panel/static/js/main.ad414978.chunk.js"
+    "revision": "9c074561f86d6db21449",
+    "url": "/atlas-panel/static/js/main.9c074561.chunk.js"
   },
   {
     "revision": "ce0f938b4990457662b7",
     "url": "/atlas-panel/static/js/1.ce0f938b.chunk.js"
   },
   {
-    "revision": "ad414978e84e6329e9f4",
-    "url": "/atlas-panel/static/css/main.1ad2ab5d.chunk.css"
+    "revision": "9c074561f86d6db21449",
+    "url": "/atlas-panel/static/css/main.399c119c.chunk.css"
   },
   {
-    "revision": "fdb28d632388509d700feb7a82b77ed8",
+    "revision": "8baae65125bed3c84cde31e7d3f482e6",
     "url": "/atlas-panel/index.html"
   }
 ];
