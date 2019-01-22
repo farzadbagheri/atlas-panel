@@ -16,7 +16,7 @@ class Table extends Component {
     return this.props.data.communities.map((data) => {
       return (
         <tr key={Math.random()}>
-          <td>{data.name}</td>
+          <td><b>{data.name}</b></td>
           <td>{data.cases}</td>
         </tr>
       )

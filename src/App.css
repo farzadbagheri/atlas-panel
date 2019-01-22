@@ -96,12 +96,13 @@ th  {
 }
 
 td {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 10px;  
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(236,236,237);
+  font-size: 14px;
 }
 
 thead > tr > th{
