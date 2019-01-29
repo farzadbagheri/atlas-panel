@@ -1,4 +1,4 @@
-#An example of my ability to design a web interface from a design prototype:
+# An example of my ability to design a web interface from a design prototype:
 
 accessible at http://farzadbagheri.github.io/atlas-panel
 
